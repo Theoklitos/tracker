@@ -1,0 +1,95 @@
+#menu a{
+	display: inline-block;
+	padding: 5px 10px;	
+	color: blue;
+	text-decoration: none;
+	border-radius: 3px;	
+}
+#menu a:hover{
+	background-color: blue;
+	color: white;	
+} 
+
+#header, #app-overview {
+	margin: 0 auto;
+}
+
+#header {
+	background: #81DAF5;
+	text-align:center;
+}
+
+#app-overview, #about {
+	margin-top: 50px;
+	width: 600px;
+}
+
+#about {
+	margin: 0 auto;
+}
+
+#developer-table, #developer-form {
+	display: block;
+	width: 600px;
+	margin: 20px auto;
+}
+
+#stories-table, #stories-form, #story-button-panel {
+	display: block;
+	width: 600px;
+	margin: 20px auto;	
+}
+
+.button-form {
+	display: inline-block;
+}
+
+#audit-trail {
+	display: block;
+	width: 600px;
+	margin: 20px auto;
+}
+
+.week {
+	border: 2px solid black;
+	margin: 10px auto;
+	width: 600px;	
+}
+
+#week-header {
+	margin: 10px;
+}
+
+.week-name, .week-story-points {
+	display: inline-block;
+	width: 48%;
+	text-align: left;
+}
+
+.week-table {
+	margin: 10px;
+	width: 50%;
+}
+.week-table td {
+	border-spacing: 10px;
+    border-collapse: separate;    
+}
+
+.week-story-points {
+	text-align: right;
+}
+
+.center {
+	width: 600px;
+	margin: 10px auto;	
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+	font-size: 24px;
+	width: 600px;
+	margin: 10px auto;	
+}
+
+
